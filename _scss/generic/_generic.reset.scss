@@ -1,0 +1,54 @@
+// ==========
+// THEME RESET
+// -----
+// This file is for you to place your other personal resets
+// in addition to resets given in normalize-scss.
+//
+// Feel free to edit this file and customize it to your needs.
+// ==========
+
+// Use border-box for everything
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+  min-height: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+// Resets margins and paddings for common elements
+h1,h2,h3,h4,h5,h6,ul,ol,dl,li,p,pre,code,blockquote,figure {
+  margin: 0;
+  padding: 0;
+}
+
+// Resets styles for horizontal lines
+hr {
+  border: 0;
+  height: 0;
+  margin: 0;
+}
+
+// Removes list-styles
+ol, ul {
+  list-style: none;
+}
+
+// Set Image and Objects to have a max-width of 100%
+embed,
+iframe,
+img,
+object,
+video {
+  max-width: 100%;
+}
+
+// Set Img height and width to auto for IE8
+img {
+  height: auto;
+  width: auto;
+  /* IE8 */
+}
+

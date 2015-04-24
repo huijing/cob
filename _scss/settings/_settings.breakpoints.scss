@@ -1,0 +1,21 @@
+// ==========
+// BREAKPOINTS
+// -----
+// Sass map for breakpoints. You can add additional breakpoints to this map 
+// or change their variable names.
+//
+// USAGE:
+// -----
+// @include respond-above(small) {
+//   .test {
+//     css-property: value;
+//   }
+// }
+// ==========
+  
+$breakpoints: (
+  small:    575px,
+  medium:   720px,
+  large:    820px,
+  x-large:  960px
+);

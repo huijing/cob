@@ -1,0 +1,90 @@
+// ==========
+// FONTS
+// ==========
+
+@font-face {
+  font-family: 'Redacted';
+  src: url('../fonts/redacted-script-regular.eot');
+  src: url('../fonts/redacted-script-regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/redacted-script-regular.woff2') format('woff2'),
+       url('../fonts/redacted-script-regular.woff') format('woff'),
+       url('../fonts/redacted-script-regular.ttf') format('truetype'),
+       url('../fonts/redacted-script-regular.svg#redacted_scriptregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Base font stacks
+$serif: Georgia, serif;
+$sans: sans-serif;
+$mono: monospace;
+
+// Base font sizes and line heights
+$base-font-size: 20px;
+$base-line-height: 30px;
+$round-to-nearest-half-line: true;
+
+// Uses the `rem` unit for all vertical rhythm output
+$rhythm-unit: "rem";
+
+// Set typography sizes
+$text-sizing: (
+  milli: (
+    small: (
+      font-size: 0.618rem
+    )
+  ),
+  centi: (
+    small: (
+      font-size: 0.618rem
+    ),
+    medium: (
+      font-size: 0.8rem
+    )
+  ),
+  deci: (
+    small: (
+      font-size: 0.8rem
+    )
+  ),
+  base: (
+    small: (
+      font-size: 0.8rem
+    ),
+    medium: (
+      font-size: 1rem
+    )
+  ),
+  deca: (
+    small: (
+      font-size: 1rem
+    ),
+    medium: (
+      font-size: 1.294rem
+    )
+  ),
+  hecto: (
+    small: (
+      font-size: 1.294rem
+    ),
+    medium: (
+      font-size: 1.618rem
+    ),
+  ),
+  kilo: (
+    small: (
+      font-size: 1.618rem
+    ),
+    medium: (
+      font-size: 2.094rem
+    ),
+  ),
+  mega: (
+    small: (
+      font-size: 2.094rem
+    ),
+    medium: (
+      font-size: 2.618rem
+    ),
+  ) 
+);

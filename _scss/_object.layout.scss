@@ -1,0 +1,25 @@
+body {
+  min-width: 320px;
+}
+
+.main {
+  @include container(85%);
+  margin-top: rhythm(1);
+}
+
+.row {
+  @include cf;
+  position: relative;
+  padding: rhythm(0.5);
+}
+
+// 2 column split content
+.split-content {
+  border: 0;
+  @include respond-above(small) {
+    @include span(6 of 12);
+    &:nth-child(2n) {
+      @include last;
+    }
+  }
+}

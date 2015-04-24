@@ -1,0 +1,12 @@
+// ==========
+// LINKS
+// ==========
+
+a {
+  text-decoration: none;
+  transition: all 0.15s linear;
+}
+
+nav {
+  @include responsive-text-size(deci);
+}

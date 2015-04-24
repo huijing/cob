@@ -1,0 +1,26 @@
+// ==========
+// QUOTES
+// ==========
+
+blockquote {
+  padding: rhythm(0.5);
+  margin-bottom: rhythm(1);
+  &:before {
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.1em;
+    vertical-align: -0.5em;
+    content: "\201C";
+  }
+  &:after {
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-left: 0.1em;
+    vertical-align: -0.5em;
+    content:"\201D";
+  }
+  p {
+    display: inline;
+    line-height: 1.7rem;
+  }
+}

@@ -1,0 +1,107 @@
+// ==========
+// LAYOUT COLOURS
+// ==========
+// Reverse the colours
+.reverse {
+  background: $text;
+  color: $text-light;
+}
+
+// Subtly highlighted section
+.subtle {
+  background: $text-light;
+}
+
+// ==========
+// TEXT COLOURS
+// ==========
+
+body {
+  color: $text;
+}
+
+a {
+  color: $accent;
+  &:hover {
+    color: darken($accent, 20%);
+  }
+}
+
+blockquote {
+  background: lighten($accent-alt, 35%);
+  border-left: 10px solid $accent-alt;
+  &:before {
+    color: $accent-alt;
+  }
+  &:after {
+    color: $accent-alt;
+  }
+}
+
+// ==========
+// BUTTON COLOURS
+// ==========
+button,
+input[type="submit"],
+.button,
+a.button {
+  background: $accent;
+  color: $text;
+  &:hover {
+    background: darken($accent, 10%);
+    color: $background;
+  }
+
+  &:active,
+  &:focus {
+
+  }
+}
+
+// ==========
+// SPECIAL FIELD COLOURS
+// ==========
+.option-buttons label,
+.pill-buttons label,
+.ui-slider,
+.switch {
+  background: $text;
+}
+
+.option-buttons .checked,
+.pill-buttons .checked,
+.ui-slider-handle {
+  background: $accent;
+}
+
+.option-buttons label,
+.pill-buttons label,
+.switch label {
+  color: $background;
+}
+
+.switch span:last-child {
+  border-color: $text;
+  box-shadow: 2px 0 10px 0 rgba(0,0,0,0.07),1000px 0 0 980px black, -2px 0 10px 0 rgba(0,0,0,0.07), -1000px 0 0 1000px $accent;
+}
+
+// ==========
+// TAB COLOURS
+// ==========
+.tabs a {
+  background: $text;
+  color: $text-light;
+  &:hover {
+    background: lighten($text, 20%);
+    color: $background;
+  }
+}
+
+// ==========
+// STRIPPED TABLES
+// ==========
+.table--striped {
+  tbody tr:nth-of-type(odd){
+    background-color: $text-light;
+  }
+}

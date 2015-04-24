@@ -1,0 +1,25 @@
+// ==========
+// COLOURS
+// -----
+// Declare all the colours that will be used here.
+// ==========
+
+$abbey: rgba(83, 87, 89, 1);
+$english-walnut: rgba(55, 40, 34, 1);
+$apple: rgba(74, 188, 65, 1);
+$sugarcane: rgba(250, 255, 250, 1);
+$mineshaft: rgba(42, 42, 42, 1);
+$royal-blue: rgba(76, 131, 225, 1);
+$mercury: rgba(230, 230, 230, 1);
+
+// ==========
+// COLOUR VARIABLES
+// ==========
+
+$background: $sugarcane;
+$background-dark: $abbey;
+$text: $mineshaft;
+$text-light: $mercury;
+$accent: $apple;
+$accent-alt: $royal-blue;
+$border: $english-walnut;

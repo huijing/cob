@@ -1,0 +1,51 @@
+// ==========
+// HEADINGS
+// ==========
+
+h1 {
+  @include responsive-text-size(kilo);
+  margin: 0 auto rhythm(1);
+  text-rendering: optimizeLegibility;
+  span,
+  small {
+    font-size: 0.5em;
+  }
+}
+
+h2 {
+  @include responsive-text-size(hecto);
+  margin: 0 auto rhythm(1);
+  text-rendering: optimizeLegibility;
+  span,
+  small {
+    font-size: 0.5em;
+  }
+}
+
+h3 {
+  @include responsive-text-size(deca);
+  margin: rhythm(1) 0;
+  text-rendering: optimizeLegibility;
+  span,
+  small {
+    font-size: 0.5em;
+  }
+}
+
+h4 {
+  @include responsive-text-size(base);
+  margin: 0 auto rhythm(0.5);
+  text-rendering: optimizeLegibility;
+}
+
+h5 {
+  @include responsive-text-size(base);
+  margin: 0 auto rhythm(0.5);
+  text-rendering: optimizeLegibility;
+}
+
+h6 {
+  @include responsive-text-size(base);
+  margin: 0 auto rhythm(1);
+  text-rendering: optimizeLegibility;
+}

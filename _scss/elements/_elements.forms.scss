@@ -1,0 +1,21 @@
+// ==========
+// FORMS
+// ==========
+
+form {
+
+}
+
+// Let's remove some odd decisions from Normalize on fieldsets.
+fieldset {
+  @include cf;
+  padding:0;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  border:none;
+  display: block;
+}
+
+legend {
+  @include cf;
+}

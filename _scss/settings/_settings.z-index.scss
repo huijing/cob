@@ -1,0 +1,12 @@
+// ==========
+// Z-INDEX
+// -----
+// Set variables for Z-index.
+// ==========
+$z-layers: (
+  exosphere: 50,
+  thermosphere: 40,
+  mesosphere: 30,
+  stratosphere: 20,
+  troposphere: 10
+);

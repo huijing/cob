@@ -1,0 +1,113 @@
+// ==========
+// UI GUIDE STYLES
+// ==========
+
+// Fonts
+.serif {
+  font-family: $serif;
+}
+.sans {
+  font-family: $sans;
+}
+
+// Colors
+.color1 { background: $background; }
+.color2 { background: $background-dark; color: $text-light; }
+.color3 { background: $text; color: $text-light; }
+.color4 { background: $text-light; }
+.color5 { background: $border; color: $text-light; }
+.color6 { background: $accent; }
+.color7 { background: $accent-alt; }
+
+.logo {
+  margin-bottom: 0;
+  img {
+    width: 100%;
+    max-width: 240px;
+  }
+  span {
+    display: block;
+  }
+}
+
+// Navigation
+.horizontal-nav--guide {
+  padding-top: 0;
+  ul {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s linear;
+    &.opened {
+      max-height: 2000px;
+    }
+  }
+}
+
+@include respond-above(small) {
+  .horizontal-nav {
+    clear: both;
+    .trigger {
+      display: none;
+    }
+    ul {
+      max-height: none;
+    }
+  }
+}
+
+.main .horizontal-nav--guide {
+  margin: rhythm(1) 0;
+}
+
+.header {
+  padding-top: rhythm(1);
+}
+
+.more {
+  clear: both;
+}
+
+// Brand Section
+.type-sample {
+  p {
+    margin-bottom: rhythm(1);
+    letter-spacing: 0.1em;
+    word-wrap: break-word;
+  }
+}
+
+//Colour swatches
+.colors {
+  background: #fff;
+}
+.swatch {
+  position: relative;
+  display: block;
+  text-align: center;
+  padding: rhythm(0.5);
+  p {
+    margin-bottom: 0;
+  }
+}
+
+// Icon listing
+.iconset {
+  ul {
+    list-style: none;
+  }
+}
+
+form .row {
+  overflow: hidden;
+}
+
+.callouts {
+  .callout {
+    @include respond-above(small) {
+      @include span(6 of 12);
+      &:nth-child(2n) {
+        @include last;
+      }
+    }
+  }
+}

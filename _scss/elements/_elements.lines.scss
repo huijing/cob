@@ -1,0 +1,12 @@
+// ==========
+// KEYLINES, RULES, & DIVIDERS
+// ==========
+
+hr {
+  clear: both;
+  height: 0;
+  margin-top: rhythm(1);
+  margin-bottom: rhythm(1);
+  border: 0;
+  border-top: $line-dark;
+}

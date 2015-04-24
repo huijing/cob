@@ -1,0 +1,19 @@
+{
+  "name": "cob",
+  "version": "0.0.1",
+  "authors": [
+    "Hui Jing <kakyou_tensai@yahoo.com>"
+  ],
+  "description": "Starter kit for creating wireframes in the browser with Susy",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "susy": "~2.2.2"
+  }
+}
