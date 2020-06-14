@@ -1,9 +1,8 @@
-#Rapid prototyping with Gulp, Jekyll and Susy
+# Rapid prototyping with Gulp, Jekyll and Susy
 
 This is a starter kit for creating prototypes in your browser very quickly. It is a combination of a number of brilliant projects smushed together, with additional stuff thrown in, then re-baked.
 
-###Requirements
----
+### Requirements
 
 To get started, you'll need to have the following installed:
 
@@ -12,15 +11,13 @@ To get started, you'll need to have the following installed:
 3. [GulpJS](http://gulpjs.com) - `npm install -g gulp`
 4. [Jekyll](http://jekyllrb.com/) - `gem install jekyll`
 
-###Getting started
----
+### Getting started
 
 - Clone this repository into your working directory.
 - Navigate to the directory and run `npm install`. This will install the required node modules for the project.
 - Also run `bower install`. This will install Susy for this project.
 
-###Using the framework
----
+### Using the framework
 
 - Run `gulp`. This will run the Gulp tasks needed for:
     -  compiling Sass, 
@@ -28,8 +25,7 @@ To get started, you'll need to have the following installed:
     -  serving the Jekyll site, 
     -  watch for changes to relevant folders and reload the browser accordingly.
 
-###Acknowledgements
----
+### Acknowledgements
 
 As mentioned above, this starter kit was based off a number of brilliant projects.
 
